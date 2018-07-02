@@ -36,7 +36,7 @@ $( document ).ready(function() {
         }
 
         // Assign random hex string lower than #0f0f0f and add to tilegrid
-        bg_color = '#' + Math.floor(Math.random()*16).toString(16).padStart(2, '0').repeat(3);
+        bg_color = '#' + Math.floor(Math.random()*32).toString(16).padStart(2, '0').repeat(3);
         $( ".tilegrid" ).append( "<div class='tile' style='background-color:" + bg_color + ";height:" + h +"px;width:" + w + "px;'></div>" );
       }
     }
