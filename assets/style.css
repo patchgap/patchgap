@@ -1,0 +1,30 @@
+/* General Styling Start */
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+body {
+  background-color: #000000;
+}
+/* General Styling End */
+
+/* Index Styling Start */
+.tilegrid {
+  line-height: 0;
+}
+
+.logo-tile {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-image: url('images/logo.png');
+  background-size: 100px 100px;
+}
+
+.tile {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #303030;
+}
+/* Index Styling End */
